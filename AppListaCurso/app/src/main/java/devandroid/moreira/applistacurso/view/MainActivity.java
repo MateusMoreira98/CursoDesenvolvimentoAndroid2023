@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
      pessoa = new Pessoa();
-     //pessoa.setPrimeiroNome("Mateus");
-     //pessoa.setSobreNome("Moreira");
-     //pessoa.setCursoDesejado("Android");
-     //pessoa.setTelefoneContato("11-898765");
+     pessoa.setPrimeiroNome("Mateus");
+     pessoa.setSobreNome("Moreira");
+     pessoa.setCursoDesejado("Android");
+     pessoa.setTelefoneContato("11-898765");
 
 
-    editPrimeiroNome = findViewById(R.id.editPrimeiroNome);
+    editPrimeiroNome = findViewById(R.id.editprimeiroNome);
     editSobreNomeAluno = findViewById(R.id.editSobreNomeAluno);
     editNomeCurso = findViewById(R.id.editNomeCurso);
     editTelefoneContato = findViewById(R.id.editTelefoneContato);
@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
     btnSalvar = findViewById(R.id.btnSalvar);
     btnFinalizar = findViewById(R.id.btnFinalizar);
 
-    editPrimeiroNome.setText(pessoa.getPrimeiroNome());
-    editSobreNomeAluno.setText(pessoa.getSobreNome());
-    editNomeCurso.setText(pessoa.getCursoDesejado());
-    editTelefoneContato.setText(pessoa.getTelefoneContato());
+     editPrimeiroNome.setText(pessoa.getPrimeiroNome());
+     editSobreNomeAluno.setText(pessoa.getSobreNome());
+     editNomeCurso.setText(pessoa.getCursoDesejado());
+     editTelefoneContato.setText(pessoa.getTelefoneContato());
 
     // funcionamento dos botões
     btnLimpar.setOnClickListener(new View.OnClickListener() {
