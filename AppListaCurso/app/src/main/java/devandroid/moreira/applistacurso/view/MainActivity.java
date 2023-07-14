@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
      pessoa.setCursoDesejado("Android");
      pessoa.setTelefoneContato("11-898765");
 
-
     editPrimeiroNome = findViewById(R.id.editprimeiroNome);
     editSobreNomeAluno = findViewById(R.id.editSobrenomeAluno);
     editNomeCurso = findViewById(R.id.editNomeCurso);
