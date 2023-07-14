@@ -7,7 +7,7 @@
     tools:context=".view.MainActivity">
 
 
-    <TextView android:id="@+id/textTituloApp"
+    <TextView android:id="@+id/TituloApp"
         android:layout_width="317dp"
         android:layout_height="33dp"
         android:text="@string/txt_titulo"
@@ -30,10 +30,10 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTituloApp"
+        app:layout_constraintTop_toBottomOf="@+id/TituloApp"
         android:importantForAutofill="no" />
 
-    <EditText android:id="@+id/editSobreNomeAluno"
+    <EditText android:id="@+id/editSobrenomeAluno"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
@@ -56,7 +56,7 @@
         android:hint="@string/txt_hint_edit_nome_do_curso"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editSobreNomeAluno"
+        app:layout_constraintTop_toBottomOf="@+id/editSobrenomeAluno"
         android:importantForAutofill="no" />
 
     <EditText android:id="@+id/editTelefoneContato"

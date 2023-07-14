@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     editPrimeiroNome = findViewById(R.id.editprimeiroNome);
-    editSobreNomeAluno = findViewById(R.id.editSobreNomeAluno);
+    editSobreNomeAluno = findViewById(R.id.editSobrenomeAluno);
     editNomeCurso = findViewById(R.id.editNomeCurso);
     editTelefoneContato = findViewById(R.id.editTelefoneContato);
 
@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
     btnSalvar = findViewById(R.id.btnSalvar);
     btnFinalizar = findViewById(R.id.btnFinalizar);
 
-     editPrimeiroNome.setText(pessoa.getPrimeiroNome());
-     editSobreNomeAluno.setText(pessoa.getSobreNome());
-     editNomeCurso.setText(pessoa.getCursoDesejado());
-     editTelefoneContato.setText(pessoa.getTelefoneContato());
+    editPrimeiroNome.setText(pessoa.getPrimeiroNome());
+    editSobreNomeAluno.setText(pessoa.getSobreNome());
+    editNomeCurso.setText(pessoa.getCursoDesejado());
+    editTelefoneContato.setText(pessoa.getTelefoneContato());
 
     // funcionamento dos botões
     btnLimpar.setOnClickListener(new View.OnClickListener() {
